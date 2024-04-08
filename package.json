@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.3",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "Genesis-Launcher",
+    "preductname": "Genesis Launcher",
+    "version": "0.0.1",
+    "description": "Official GenesisMC game server launcher",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "luuxis, Aweek, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://genesismc.fr/launcher_webserver",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://media.discordapp.net/attachments/938880334458650655/1175914407746871397/image_17.png?ex=661c4e22&is=6609d922&hm=c171c0ae6ca3538fead9d14bbb8cbfbcd44d9b4248d5db0df81f4166db9f01ce&=&format=webp&quality=lossless&width=670&height=670"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/aweek23/Genesis-Launcher.git"
     }
 }
